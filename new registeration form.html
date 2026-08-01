@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+
+<table border="1" cellspacing="5" cellpadding="10">
+<tr>
+<td><label for="name">Full Name:</label></td>
+<td><input type="text"  name="name" required></td>
+</tr>
+<tr>
+<td><label for="email">Email:</label></td>
+<td><input type="email" id="email" name="email" required></td>
+</tr>
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input type="password" id="password" name="password" required></td>
+</tr>
+<tr>
+<td><label for="dob">Date of Birth:</label></td>
+<td><input type="date" id="dob" name="dob" required></td>
+</tr>
+<tr>
+<td><label for="gender">Gender:</label></td>
+<td>
+<input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+</td>
+</tr>
+<tr>
+<td><label for="phone">Phone Number:</label></td>
+<td><input type="number" id="phone" name="phone" required></td>
+</tr>
+<tr>
+<td><label for="course">Select Course:</label></td>
+<td>
+<select id="course" name="course">
+<option value="btech">B.Tech</option>
+<option value="bsc">B.Sc</option>
+<option value="bcom">B.Com</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>Hobbies:</label></td>
+<td>
+<input type="checkbox" id="reading" name="hobbies" value="reading"><label for="reading">Reading</label>
+<input type="checkbox" id="sports" name="hobbies" value="sports"><label for="sports">Sports</label>
+<input type="checkbox" id="music" name="hobbies" value="music"><label for="music">Music</label>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meghana Satyavarapu | Landing Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#4a90e2;
+    color:white;
+    padding:20px 60px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    background:white;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h1{
+    font-size:45px;
+    color:#4a90e2;
+}
+
+.hero-text h2{
+    margin:10px 0;
+}
+
+.hero-text p{
+    margin:20px 0;
+    line-height:1.7;
+}
+
+button{
+    padding:12px 25px;
+    background:#4a90e2;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero img{
+    width:350px;
+    max-width:100%;
+}
+
+/* Skills Section */
+.skills{
+    padding:50px;
+    background:#eef5ff;
+}
+
+.skills h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+article{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+article h3{
+    color:#4a90e2;
+    margin-bottom:10px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Sahasra</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Hi, I'm Sahasra Kottakota</h1>
+        
+        <h2>B.Tech computer Science Student</h2>
+
+        <p>
+            I am passionate about Web Development, Java Programming,
+            Data Structures & Algorithms, and Data Analytics.
+            My goal is to become a skilled Software Engineer and Data Analyst.
+        </p>
+
+        <button>View My Portfolio</button>
+    </div>
+
+    <img src="https://via.placeholder.com/350x350" alt="Profile Image">
+
+</section>
+
+<section class="skills">
+
+<h2>My Skills</h2>
+
+<div class="grid">
+
+<article>
+<h3>Java</h3>
+<p>Strong knowledge of Core Java and problem solving.</p>
+</article>
+
+<article>
+<h3>HTML & CSS</h3>
+<p>Responsive websites using Semantic HTML, Flexbox and Grid.</p>
+</article>
+
+<article>
+<h3>Data Structures</h3>
+<p>Arrays, Linked Lists, Trees, Graphs and Algorithms.</p>
+</article>
+
+<article>
+<h3>Data Science</h3>
+<p>Learning Python, SQL, Excel and Data Analytics.</p>
+</article>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Sahasra Kottakota | All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
